@@ -1,0 +1,29 @@
+  <div id="wrapper">
+    
+       
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+
+							<p>
+							  <strong>Title:</strong>
+							  <%= @article.title %>
+							</p>
+							 
+							<p>
+							  <strong>Text:</strong>
+							  <%= @article.text %>
+							</p>
+
+							<%= link_to 'Back', articles_path %>
+							<%= link_to 'Edit', edit_article_path(@article) %> 
+
+
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+</div>
